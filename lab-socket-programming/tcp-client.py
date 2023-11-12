@@ -3,7 +3,7 @@
 import socket
 
 # IP = input("Server address: ")
-#hhaa
+
 IP = '34.64.245.51'
 TCP_PORT = 5005
 BUFFER_SIZE = 1024
