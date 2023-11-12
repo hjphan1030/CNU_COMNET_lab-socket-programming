@@ -17,7 +17,7 @@ while True:
     print('Client address:', addr)
     data = conn.recv(BUFFER_SIZE)
     if not data: break
-    currentTime = " " + " new server4 !!! " + time.ctime(time.time()) + "\r\n"
+    currentTime = " " + " new server5 !!! " + time.ctime(time.time()) + "\r\n"
     print(data.decode('utf-8'))
     data = data + currentTime.encode('ascii')
     conn.send(data)  # echo
